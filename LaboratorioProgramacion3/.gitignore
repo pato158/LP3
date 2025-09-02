@@ -1,0 +1,4 @@
+# Ignorar todos los archivos ocultos (que empiezan con punto)
+.*
+# Pero permitir el .gitignore en sí
+!.gitignore
