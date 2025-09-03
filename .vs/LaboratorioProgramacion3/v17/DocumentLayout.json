@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\patri\\source\\repos\\LaboratorioProgramacion3\\",
+  "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\LP3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE4C651C-607A-4090-9B4F-E09D12D7C01C}|LaboratorioProgramacion3\\LaboratorioProgramacion3.csproj|c:\\users\\patri\\source\\repos\\laboratorioprogramacion3\\laboratorioprogramacion3\\formularios\\clase01.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{BE4C651C-607A-4090-9B4F-E09D12D7C01C}|LaboratorioProgramacion3\\LaboratorioProgramacion3.csproj|c:\\users\\asus\\source\\repos\\lp3\\laboratorioprogramacion3\\formularios\\clase01.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{BE4C651C-607A-4090-9B4F-E09D12D7C01C}|LaboratorioProgramacion3\\LaboratorioProgramacion3.csproj|solutionrelative:laboratorioprogramacion3\\formularios\\clase01.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE4C651C-607A-4090-9B4F-E09D12D7C01C}|LaboratorioProgramacion3\\LaboratorioProgramacion3.csproj|c:\\users\\patri\\source\\repos\\laboratorioprogramacion3\\laboratorioprogramacion3\\formularios\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{BE4C651C-607A-4090-9B4F-E09D12D7C01C}|LaboratorioProgramacion3\\LaboratorioProgramacion3.csproj|C:\\Users\\Asus\\source\\repos\\LP3\\laboratorioprogramacion3\\formularios\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{BE4C651C-607A-4090-9B4F-E09D12D7C01C}|LaboratorioProgramacion3\\LaboratorioProgramacion3.csproj|solutionrelative:laboratorioprogramacion3\\formularios\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE4C651C-607A-4090-9B4F-E09D12D7C01C}|LaboratorioProgramacion3\\LaboratorioProgramacion3.csproj|c:\\users\\patri\\source\\repos\\laboratorioprogramacion3\\laboratorioprogramacion3\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{BE4C651C-607A-4090-9B4F-E09D12D7C01C}|LaboratorioProgramacion3\\LaboratorioProgramacion3.csproj|C:\\Users\\Asus\\source\\repos\\LP3\\laboratorioprogramacion3\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{BE4C651C-607A-4090-9B4F-E09D12D7C01C}|LaboratorioProgramacion3\\LaboratorioProgramacion3.csproj|solutionrelative:laboratorioprogramacion3\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
@@ -26,15 +26,15 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Clase01.aspx",
-              "DocumentMoniker": "C:\\Users\\patri\\source\\repos\\LaboratorioProgramacion3\\LaboratorioProgramacion3\\Formularios\\Clase01.aspx",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\LP3\\LaboratorioProgramacion3\\Formularios\\Clase01.aspx",
               "RelativeDocumentMoniker": "LaboratorioProgramacion3\\Formularios\\Clase01.aspx",
-              "ToolTip": "C:\\Users\\patri\\source\\repos\\LaboratorioProgramacion3\\LaboratorioProgramacion3\\Formularios\\Clase01.aspx",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\LP3\\LaboratorioProgramacion3\\Formularios\\Clase01.aspx",
               "RelativeToolTip": "LaboratorioProgramacion3\\Formularios\\Clase01.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -45,9 +45,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.aspx",
-              "DocumentMoniker": "C:\\Users\\patri\\source\\repos\\LaboratorioProgramacion3\\LaboratorioProgramacion3\\Index.aspx",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\LP3\\LaboratorioProgramacion3\\Index.aspx",
               "RelativeDocumentMoniker": "LaboratorioProgramacion3\\Index.aspx",
-              "ToolTip": "C:\\Users\\patri\\source\\repos\\LaboratorioProgramacion3\\LaboratorioProgramacion3\\Index.aspx",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\LP3\\LaboratorioProgramacion3\\Index.aspx",
               "RelativeToolTip": "LaboratorioProgramacion3\\Index.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -58,14 +58,24 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Site.Master",
-              "DocumentMoniker": "C:\\Users\\patri\\source\\repos\\LaboratorioProgramacion3\\LaboratorioProgramacion3\\Formularios\\Site.Master",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\LP3\\LaboratorioProgramacion3\\Formularios\\Site.Master",
               "RelativeDocumentMoniker": "LaboratorioProgramacion3\\Formularios\\Site.Master",
-              "ToolTip": "C:\\Users\\patri\\source\\repos\\LaboratorioProgramacion3\\LaboratorioProgramacion3\\Formularios\\Site.Master",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\LP3\\LaboratorioProgramacion3\\Formularios\\Site.Master",
               "RelativeToolTip": "LaboratorioProgramacion3\\Formularios\\Site.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-09-02T15:21:51.725Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 167,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
