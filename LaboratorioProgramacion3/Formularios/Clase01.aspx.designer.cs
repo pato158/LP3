@@ -51,13 +51,22 @@ namespace LaboratorioProgramacion3.Formularios
         protected global::System.Web.UI.WebControls.TextBox apellido;
 
         /// <summary>
+        /// Control Label5.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label5;
+
+        /// <summary>
         /// Control fecha.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar fecha;
+        protected global::System.Web.UI.WebControls.TextBox fecha;
 
         /// <summary>
         /// Control Label3.
@@ -69,13 +78,13 @@ namespace LaboratorioProgramacion3.Formularios
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// Control DropDownList1.
+        /// Control semestre.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.DropDownList semestre;
 
         /// <summary>
         /// Control Label4.
