@@ -14,10 +14,12 @@ Mostrar un resumen en un Label con todos los datos seleccionados.</span>
     <asp:Label ID="Label2" runat="server" Text="Apellido: "></asp:Label>
     <asp:TextBox ID="apellido" runat="server"></asp:TextBox>
     <br />
-    <asp:Calendar ID="fecha" runat="server"></asp:Calendar>
+    <asp:Label ID="Label5" runat="server"  Text="Fecha de Nacimiento: "></asp:Label>
+    <asp:TextBox ID="fecha" TextMode="Date" runat="server"></asp:TextBox>
+    <br />
     <asp:Label ID="Label3" runat="server" Text="Semestre:   "></asp:Label>
 
-    <asp:DropDownList ID="DropDownList1" runat="server">
+    <asp:DropDownList ID="semestre" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
         <asp:ListItem Value="0">Seleccione un Semestre</asp:ListItem>
         <asp:ListItem Value="1">1º Semestre</asp:ListItem>
         <asp:ListItem Value="2">2º Semestre</asp:ListItem>
@@ -25,23 +27,12 @@ Mostrar un resumen en un Label con todos los datos seleccionados.</span>
     </asp:DropDownList>
     <br />
     <br />
-
-
     <asp:Label ID="Label4" runat="server" Text="Materias: "></asp:Label>
-
-
     <asp:CheckBoxList ID="Materias" runat="server">
     </asp:CheckBoxList>
     <br />
     <br />
-
-    <asp:Button ID="Button1" runat="server" Text="REGISTRAR" BackColor="Lime" BorderColor="Blue" />
-
-
-
+    <asp:Button ID="Button1" runat="server" Text="REGISTRAR" BackColor="Lime" BorderColor="Blue" OnClick="Button1_Click" />
     <br />
-    <asp:Label ID="mensaje" runat="server" Text="Label"></asp:Label>
-
-
-
+    <asp:Label ID="mensaje" runat="server" Text=""></asp:Label>
 </asp:Content>
