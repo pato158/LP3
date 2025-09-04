@@ -15,7 +15,8 @@
     <AssemblyName>LaboratorioProgramacion3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
-    <Use64BitIISExpress />
+    <Use64BitIISExpress>
+    </Use64BitIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -71,7 +72,7 @@
     <Content Include="Formularios\Clase02.aspx" />
     <Content Include="Formularios\Clase03.aspx" />
     <Content Include="Formularios\Clase03AltaUsuario.aspx" />
-    <Content Include="Index.aspx" />
+    <Content Include="index.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -104,12 +105,12 @@
     <Compile Include="Formularios\Clase03AltaUsuario.aspx.designer.cs">
       <DependentUpon>Clase03AltaUsuario.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Index.aspx.cs">
-      <DependentUpon>Index.aspx</DependentUpon>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Index.aspx.designer.cs">
-      <DependentUpon>Index.aspx</DependentUpon>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>

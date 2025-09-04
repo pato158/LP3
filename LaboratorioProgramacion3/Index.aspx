@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Index" Language="C#" MasterPageFile="~/Formularios/Site.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="LaboratorioProgramacion3.Formularios.Index" %>
+﻿<%@ Page Title="Index" Language="C#" MasterPageFile="~/Formularios/Site.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="LaboratorioProgramacion3.Formularios.Index" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="">
