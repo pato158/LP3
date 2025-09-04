@@ -70,6 +70,7 @@
     <Content Include="Formularios\Clase01.aspx" />
     <Content Include="Formularios\Clase02.aspx" />
     <Content Include="Formularios\Clase03.aspx" />
+    <Content Include="Formularios\Clase03AltaUsuario.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -96,6 +97,13 @@
     <Compile Include="Formularios\Clase03.aspx.designer.cs">
       <DependentUpon>Clase03.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Clase03AltaUsuario.aspx.cs">
+      <DependentUpon>Clase03AltaUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Clase03AltaUsuario.aspx.designer.cs">
+      <DependentUpon>Clase03AltaUsuario.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -113,6 +121,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Models\UsuarioTipo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -127,7 +137,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
