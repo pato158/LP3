@@ -71,6 +71,8 @@
     <Content Include="Formularios\Clase02.aspx" />
     <Content Include="Formularios\Clase03.aspx" />
     <Content Include="Formularios\Clase03AltaUsuario.aspx" />
+    <Content Include="Formularios\Clase04.aspx" />
+    <Content Include="Formularios\Clase04Categorias.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -103,6 +105,20 @@
     </Compile>
     <Compile Include="Formularios\Clase03AltaUsuario.aspx.designer.cs">
       <DependentUpon>Clase03AltaUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Clase04.aspx.cs">
+      <DependentUpon>Clase04.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Clase04.aspx.designer.cs">
+      <DependentUpon>Clase04.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Clase04Categorias.aspx.cs">
+      <DependentUpon>Clase04Categorias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Clase04Categorias.aspx.designer.cs">
+      <DependentUpon>Clase04Categorias.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>

@@ -43,6 +43,12 @@
                                 </a>
 
                             </li>
+                            <li class="nav-item btn">
+                                <a>
+                                    <asp:HyperLink ID="HyperLink5" runat="server" Text="Clase 4" NavigateUrl="~/Formularios/Clase04.aspx"></asp:HyperLink>
+                                </a>
+
+                            </li>
 
                         </ul>
                     </div>
