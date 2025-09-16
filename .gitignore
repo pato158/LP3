@@ -1,2 +1,21 @@
-/.vs
-/LaboratorioProgramacion3/obj/Debug
+# Carpetas de compilación
+bin/
+obj/
+packages/
+.vs/
+
+# Archivos compilados
+*.dll
+*.pdb
+*.exe
+*.cache
+*.log
+
+# Archivos de configuración local
+*.user
+*.suo
+*.dbmdl
+*.csproj.FileListAbsolute.txt
+*.csproj.CoreCompileInputs.cache
+*.csproj.GenerateResource.cache
+*.csprojAssemblyReference.cache
