@@ -20,7 +20,7 @@ namespace LaboratorioProgramacion3.Formularios
             if (nombre.Text.Trim().Equals("")) {mensaje.Text = "Ingrese su nombre"; return; }
             if (pais.Text.Trim().Equals("")) { mensaje.Text = "Ingrese su pais"; return; }
             if (comentario.Text.Trim().Equals("")) { mensaje.Text = "Ingrese un comentario"; return; }
-            StreamWriter archivo = new StreamWriter(this.Server.MapPath("./Comentarios.txt"), true);
+            StreamWriter archivo = new StreamWriter(this.Server.MapPath(".")+"/Comentarios.txt", true);
             archivo.WriteLine(this.nombre.Text +"<br>");
             archivo.WriteLine(this.pais.Text + "<br>");
             archivo.WriteLine(this.comentario.Text + "<br>");
