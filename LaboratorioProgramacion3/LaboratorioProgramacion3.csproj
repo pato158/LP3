@@ -70,8 +70,11 @@
   <ItemGroup>
     <Content Include="Formularios\Clase01.aspx" />
     <Content Include="Formularios\Clase02.aspx" />
+    <Content Include="Formularios\Clase02LibroComentarios.aspx" />
+    <Content Include="Formularios\Clase02RegistrarComentario.aspx" />
     <Content Include="Formularios\Clase03.aspx" />
     <Content Include="Formularios\Clase03AltaUsuario.aspx" />
+    <Content Include="Formularios\Clase03ListarUsuarios.aspx" />
     <Content Include="index.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -91,6 +94,20 @@
     <Compile Include="Formularios\Clase02.aspx.designer.cs">
       <DependentUpon>Clase02.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Clase02LibroComentarios.aspx.cs">
+      <DependentUpon>Clase02LibroComentarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Clase02LibroComentarios.aspx.designer.cs">
+      <DependentUpon>Clase02LibroComentarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Clase02RegistrarComentario.aspx.cs">
+      <DependentUpon>Clase02RegistrarComentario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Clase02RegistrarComentario.aspx.designer.cs">
+      <DependentUpon>Clase02RegistrarComentario.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Clase03.aspx.cs">
       <DependentUpon>Clase03.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -104,6 +121,13 @@
     </Compile>
     <Compile Include="Formularios\Clase03AltaUsuario.aspx.designer.cs">
       <DependentUpon>Clase03AltaUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Clase03ListarUsuarios.aspx.cs">
+      <DependentUpon>Clase03ListarUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Clase03ListarUsuarios.aspx.designer.cs">
+      <DependentUpon>Clase03ListarUsuarios.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>

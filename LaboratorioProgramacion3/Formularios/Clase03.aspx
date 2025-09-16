@@ -6,9 +6,9 @@
     <div>
 
         <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Formularios/Clase03AltaUsuario.aspx">Alta Usuario</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Formularios/Clase03ListarUsuarios.aspx">Mostrar Usuarios</asp:HyperLink>
         <asp:HyperLink ID="HyperLink6" runat="server">Eliminar Usuario</asp:HyperLink>
         <asp:HyperLink ID="HyperLink1" runat="server">Modificar Usuario</asp:HyperLink>
-        <asp:HyperLink ID="HyperLink2" runat="server">Mostrar Usuarios</asp:HyperLink>
         
     </div>
 </asp:Content>

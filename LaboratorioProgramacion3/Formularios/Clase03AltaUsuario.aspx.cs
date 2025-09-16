@@ -17,8 +17,10 @@ namespace LaboratorioProgramacion3.Formularios
             conexion.Open();
             var query = "SELECT * from USUARIOTIPOS";
             SqlCommand comanda = new SqlCommand(query, conexion);
-            SqlDataReader lector =comanda.ExecuteReader();
-            while (lector.Read()) {
+            SqlDataReader lector = comanda.ExecuteReader();
+            roles.Items.Clear();
+            while (lector.Read())
+            {
                 roles.Items.Add(new ListItem { Value = lector["Id"].ToString(), Text = lector["Descripcion"].ToString() });
             }
             conexion.Close();
@@ -28,7 +30,8 @@ namespace LaboratorioProgramacion3.Formularios
         protected void btnRegistrar_Click(object sender, EventArgs e)
         {
             var user = userName.Text;
-            if (user.Trim() == "") {
+            if (user.Trim() == "")
+            {
                 mensaje.Text = "Ingrese nombre de usuario";
                 return;
             }
@@ -38,6 +41,21 @@ namespace LaboratorioProgramacion3.Formularios
                 mensaje.Text = "Ingrese una contraseña";
                 return;
             }
+
+            var sConexion = System.Configuration.ConfigurationManager.ConnectionStrings["sConexion"].ConnectionString;
+            SqlConnection conexion = new SqlConnection(sConexion);
+            conexion.Open();
+            var query = $"insert into Usuarios(Username,Password,IdUsuarioTipo) values('{userName.Text}','{password.Text}',{roles.SelectedValue})";
+            SqlCommand comanda = new SqlCommand(query, conexion);
+            var inserto = comanda.ExecuteNonQuery();
+            if (inserto != 0)
+            {
+                mensaje.Text = "Usuario registrado con exito";
+            }
+            else {
+                mensaje.Text = "Error al guardar el usuario";
+            }
+
         }
     }
 }
