@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h3 class="text-center">Alta de usuario</h3>
-    <form class="form">
+    <div class="form">
         <div class="form-group">
             <asp:Label ID="Label1" runat="server" Text="Nombre de Usuario: "></asp:Label>
             <asp:TextBox ID="userName" runat="server" CssClass="form-control"></asp:TextBox>
@@ -21,7 +21,7 @@
         </div>
 
     <asp:Label ID="mensaje" runat="server" Text="Label"></asp:Label>
-    </form>
+    </div>
     <br />
 
     <asp:HyperLink ID="HyperLink5" runat="server" BackColor="lime" BorderColor="blue" CssClass="btn btn-primary" NavigateUrl="~/Formularios/Clase03.aspx">Volver</asp:HyperLink>
